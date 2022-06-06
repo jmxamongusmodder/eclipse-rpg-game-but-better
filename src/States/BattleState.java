@@ -42,7 +42,7 @@ public class BattleState extends State{
 		bar = new Bar(handler);
 		
 		monsters.add(new Monster("Green Slime", Assets.monsters[0], 38 * 4, 27 * 4, 440, 160, 50, 20, 1, handler));
-		//monsters.add(new Monster("Angry Radish", Assets.monsters[1], 23 * 4, 41 * 4, 480, 110, 1, 20, 1));
+	        monsters.add(new Monster("Angry Radish", Assets.monsters[1], 23 * 4, 41 * 4, 480, 110, 1, 20, 1, handler));
 		
 		monster = monsters.get(0);
 		inGamePlayer = new InGamePlayer(handler);
